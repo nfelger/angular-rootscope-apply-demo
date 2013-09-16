@@ -11,7 +11,7 @@ AradAppModule.config(['$routeProvider', function($routeProvider) {
 
 
 AradAppModule.run(['$rootScope', function($rootScope) {
-//    $rootScope.$apply(function(){ });
+    $rootScope.$apply(function(){ });
 }]);
 
 
